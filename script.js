@@ -46,4 +46,5 @@ button.addEventListener("click", (event) => {
     <p><strong>Day of Birth:</strong> ${result.day}</p>
     <p><strong>Your Akan Name:</strong> ${result.name}</p>
   `;
+  displaySection.classList.add("show");
 });
