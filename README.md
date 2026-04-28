@@ -1,4 +1,6 @@
 # Akan Name Generator
+# github link
+https://github.com/rbrtgor-sdlab/Akan-name_generator
 
 ## Description
 
