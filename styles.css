@@ -1,0 +1,23 @@
+body {
+    background-color: greenyellow;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: brown;
+    padding: 1%;
+    margin: auto;
+    border-radius: 70%;
+    font-family: 'beteNoir';
+}
+footer{
+    text-align: center;
+    padding-bottom: 0%;
+    margin: auto;
+}
+h2{
+    color: aqua;
+    font-weight: 600px;
+}
