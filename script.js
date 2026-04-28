@@ -43,7 +43,7 @@ button.addEventListener("click", (event) => {
   const displaySection = document.getElementById("akandisplay");
   displaySection.innerHTML = `
     <h3>Your Akan Name</h3>
-    <p><strong>Day of Birth:</strong> ${result.day}</p>
+    <p><strong><em>Day of Birth:<em></strong> ${result.day}</p>
     <p><strong>Your Akan Name:</strong> ${result.name}</p>
   `;
   displaySection.classList.add("show");
