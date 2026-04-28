@@ -11,6 +11,8 @@
             <h1>Find about your Akan Name</h1>
             <p>Generating the best african names depending on the day you were born</p>
         </header>
+        <h2>About</h2>
+        <p>In an african setting, there is a tradition of naming children depending on what day of the week they were born. Akan name generator is a webiste that will help determine the name to be given depending on what day of the week you were born. </p>
     <section id="method">
         <h2>How to generate names</h2>
         <ol>
@@ -19,26 +21,29 @@
             <li>click submit to generate names</li>
         </ol>
     </section>
+    <div>
     <section id="dobgender">
-        <h2>Type in dob and gender</h2>
+        <h2>Name Generator</h2>
     <form action="/submit-your-form" method="POST">
             <label for="birthday">Date of Birth:</label>
             <input type="date" id="birthday" name="birthday">
-            <label for="gender-select">Choose gender:</label>
-        <select name="gender" id="gender-select">
-            <option value="">--Please select--</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-         </select>
-            <button type="submit">Submit</button>
+            <label for="gender-select">Choose a gender:</label>
+<select name="gender" id="gender-select">
+    <option value="">--Choose gender--</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+</select>
+
+            <button type="submit" id="button">Submit</button>
     </form>
     </section>
-    <section id="akandisplay">
+<!-- This section displays the generated Akan Name -->
+    <section id="akandisplay"> 
         <form>
 
         </form>
     </section>
-
+    </div>  
     <script src="./script.js" defer></script>
     </body>
 </html>
