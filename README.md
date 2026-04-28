@@ -71,4 +71,4 @@ Robert Gor Onyango
 
 ## License
 
-MIT License - Feel free to use and modify this project.
+Moringa school - Feel free to use and modify this project.

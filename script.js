@@ -22,7 +22,7 @@ button.addEventListener("click", (event) => {
     const d = new Date(birthday);
     const dayOfWeek = d.getDay();
 
-    const index = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
+    const index = dayOfWeek;
     if (gender === "male") {
       return { day: akanNames.days[index], name: akanNames.maleNames[index] };
     } else {
