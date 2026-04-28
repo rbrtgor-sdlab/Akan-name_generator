@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akan-name</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Find about your Akan Name</h1>
+            <p>Generating the best african names depending on the day you were born</p>
+        </header>
+    <section id="method">
+        <h2>How to generate names</h2>
+        <ol>
+            <li>Enter DOB</li>
+            <li>Select gender</li>
+            <li>click submit to generate names</li>
+        </ol>
+    </section>
+    <section id="dobgender">
+    <form action="/submit-your-form" method="POST">
+            <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="gender-select">Choose gender:</label>
+        <select name="gender" id="gender-select">
+            <option value="">--Please select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+         </select>
+            <button type="submit">Submit</button>
+    </form>
+    </section>
+    <section id="akandisplay">
+        <form>
+
+        </form>
+    </section>
+
+    <script src="./script.js" defer></script>
+    </body>
+<footer>&trade;rbrtgor 2026</footer>
+</html>
