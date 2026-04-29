@@ -123,13 +123,14 @@ button:hover {
 }
 
 button:active {
-  transform: translateY(-1px);
+  transform: translateY(-3px);
 }
 
 /* Result Display Styling */
 #akandisplay {
-  background: linear-gradient(#7608de) ;
+  background: linear-gradient(#e3dfe8) ;
   border-left: 5px solid #667eea;
+  border-right: 5px solid #667eea;
   display: none;
 }
 
@@ -147,4 +148,7 @@ button:active {
 
 #akandisplay strong {
   color: #764ba2;
+}
+#akandisplay.show {
+  display: block;
 }
